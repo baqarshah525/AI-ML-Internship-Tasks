@@ -69,3 +69,45 @@ Yahoo Finance Stock Market Data (AAPL - Apple Inc.)
 * Predicted values were generally close to actual closing prices.
 * The comparison plot demonstrated the model's effectiveness in forecasting future stock prices.
 
+# Task 3: Heart Disease Prediction
+
+## Objective
+
+To build a machine learning model that predicts whether a person is at risk of heart disease based on their health-related attributes.
+
+## Dataset Used
+
+Heart Disease UCI Dataset
+
+## Libraries Used
+
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+
+## Tasks Performed
+
+* Loaded the dataset
+* Inspected dataset structure and summary statistics
+* Checked and handled missing values
+* Removed duplicate records
+* Performed Exploratory Data Analysis (EDA)
+* Visualized data using count plots, histograms, box plots, and correlation heatmap
+* Converted the target variable into binary classes
+* Split the dataset into training and testing sets
+* Applied feature scaling
+* Trained a Logistic Regression model
+* Evaluated the model using Accuracy Score, Confusion Matrix, Classification Report, ROC Curve, and ROC-AUC Score
+* Analyzed feature importance
+
+## Key Findings
+
+* The dataset contains patient health information related to heart disease risk.
+* Exploratory Data Analysis helped identify relationships between features and the target variable.
+* Logistic Regression successfully classified patients into heart disease and non-heart disease categories.
+* ROC Curve and ROC-AUC Score demonstrated the model’s classification performance.
+* Features such as chest pain type, maximum heart rate achieved, ST depression, and number of major vessels showed significant influence on prediction outcomes.
+* The model achieved an accuracy of XX% and an ROC-AUC Score of XX (replace with your actual results).
+
