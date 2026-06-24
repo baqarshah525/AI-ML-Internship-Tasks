@@ -111,3 +111,73 @@ Heart Disease UCI Dataset
 * Features such as chest pain type, maximum heart rate achieved, ST depression, and number of major vessels showed significant influence on prediction outcomes.
 * The model achieved an accuracy of XX% and an ROC-AUC Score of XX (replace with your actual results).
 
+
+# Task 4: General Health Query Chatbot (Prompt Engineering Based)
+
+## Objective
+
+To build a chatbot that can answer general health-related questions using a Large Language Model (LLM) while ensuring responses are friendly, informative, and safe.
+
+## Model Used
+
+Llama 3 8B (via Groq API)
+
+## Libraries Used
+
+Groq
+
+## Tasks Performed
+
+Installed and configured the Groq API client
+
+Created a conversational chatbot interface
+
+Designed prompts using prompt engineering techniques
+
+Implemented safety filters for emergency and high-risk medical queries
+
+Generated clear and user-friendly health information responses
+
+Added error handling for API requests
+
+## Features
+
+Provides general health information
+
+Uses prompt engineering to guide model behavior
+
+Prevents harmful medical advice
+
+Detects emergency-related keywords and displays safety warnings
+
+Supports continuous conversation until the user exits
+
+## Example Queries
+
+What causes a sore throat?
+
+Is paracetamol safe for children?
+
+How can I improve my sleep quality?
+
+What are common symptoms of dehydration?
+
+## Safety Measures
+
+The chatbot does not diagnose medical conditions.
+
+The chatbot does not prescribe medications.
+
+Users are encouraged to consult healthcare professionals for serious concerns.
+
+Emergency-related queries trigger a warning message advising immediate medical assistance.
+
+## Key Findings
+
+Prompt engineering significantly improves response quality and consistency.
+
+Safety filters help reduce the risk of providing potentially harmful medical guidance.
+
+The chatbot can effectively answer general health-related questions in a clear and friendly manner.
+
+Combining LLM capabilities with safety rules creates a more reliable conversational health assistant.
